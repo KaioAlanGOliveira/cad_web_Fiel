@@ -1,10 +1,5 @@
 # cad_web_Fiel
 
-// Exemplo de servlet para listar fiéis
-@WebServlet("/fieis")
-public class ListaFieisServlet extends HttpServlet {
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        request.getRequestDispatcher("fieis.jsp").forward(request, response);
-    }
-}
+Este projeto tem como objetivo realizar o cadastro e gerenciamento de dizimistas, permitindo o registro de dados pessoais e o controle dos pagamentos efetuados. Foi desenvolvido como forma de estudo e prática de programação, utilizando conceitos de banco de dados e desenvolvimento de sistemas.
+
+web
